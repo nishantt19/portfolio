@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+:root {
+  --font-sora: var(--font-sora);
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  font-family: var(--font-sora), sans-serif;
+}
+
+.primary-button {
+  @apply bg-black text-base md:text-lg font-semibold text-white px-4 py-3 md:px-5 md:py-4 flex items-center gap-x-2 cursor-pointer;
+}
+
+.body-padding-x {
+  @apply px-4 sm:px-12 md:px-16 lg:px-[88px] xl:px-28;
+}
+
+.body-padding-y {
+  @apply py-10 md:py-12 lg:py-14;
+}
+
+.h1-heading {
+  @apply text-[28px] sm:text-4xl xl:text-5xl;
+}
+
+.input {
+  @apply w-full py-4 px-6 rounded-sm border-[1.5px] border-black text-base;
+}
+
+.shadow-outline-basic {
+  color: #fff;
+  text-shadow: -2px -2px 0 #333, 2px -2px 0 #333,
+    -2px 2px 0 #333, 2px 2px 0 #333, -2px 0 0 #333,
+    2px 0 0 #333, 0 -2px 0 #333, 0 2px 0 #333;
+}
