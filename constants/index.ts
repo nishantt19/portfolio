@@ -22,6 +22,8 @@ import {
 } from "react-icons/si";
 import { type IconType } from "react-icons";
 
+// checking if git is working properly
+
 interface Navlink {
   name: string;
   id: string;
